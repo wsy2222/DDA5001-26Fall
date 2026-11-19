@@ -32,33 +32,3 @@ requirements-local-resolved.txt
 !.env.example
 .codex/
 .opencode/
-
-# Course-provided skeleton and data are kept locally but NOT tracked in this repo.
-# Only the completed TODO files and the two run scripts are tracked (see whitelist below).
-LICENSE
-README.md
-.gitattributes
-p1/AGENTS.md
-p1/README.md
-p1/check_solution.py
-p1/checkpoint_io.py
-p1/config/
-p1/configurator.py
-p1/data/
-p1/evaluate.py
-p1/exercise_helpers.py
-p1/export_results.py
-p1/requirements.txt
-p1/run_experiments.py
-p1/run_records.py
-p1/sample.py
-p1/setup/
-README_使用说明.txt
-指南.docx
-
-# Whitelist: keep these completed files and scripts tracked despite the ignores above.
-!p1/model.py
-!p1/train.py
-!p1/plot.py
-!run_defaults.sh
-!run_alternatives.sh
